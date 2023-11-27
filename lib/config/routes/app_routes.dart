@@ -1,3 +1,4 @@
+
 import 'package:go_router/go_router.dart';
 import 'package:widgets_app/presentation/screens/screens.dart';
 
@@ -20,8 +21,38 @@ final appRouter = GoRouter(
       path: '/cards',
       builder: (context, state) => const CardScreen(),
     ),
+    
+    GoRoute(
+      path: '/animated',
+      builder: (context, state) => const AnimatedScreen(),
+    ),
 
+    GoRoute(
+      path: '/apptutorial',
+      builder: (context, state) => const AppTutorialScreen(),
+    ),
 
+    GoRoute(
+      path: '/infinitescroll',
+      builder: (context, state) => const InfiniteScrollScreen(),
+    ),
+
+    GoRoute(
+      path: '/progress',
+      builder: (context, state) => const ProgressScreen(),
+    ),
+
+    GoRoute(
+      path: '/snackbar',
+      builder: (context, state) => const SnackbarScreen(),
+    ),
+
+    GoRoute(
+      path: '/uicontrols',
+      builder: (context, state) => const UiControlsScreen(),
+    ),
+
+    
   ],
 );
 
