@@ -30,4 +30,46 @@ const appMenuItems = <MenuItem> [
     icon: Icons.credit_card
   ),
 
+  MenuItem(
+    title: 'Animated', 
+    subTitlle: 'Animaciones', 
+    link: '/animated', 
+    icon: Icons.animation
+  ),
+
+  MenuItem(
+    title: 'App-Tutorial', 
+    subTitlle: 'Tutoriales', 
+    link: '/apptutorial', 
+    icon: Icons.tungsten_rounded
+  ),
+
+  MenuItem(
+    title: 'Infinite Scroll', 
+    subTitlle: 'Scroll infinito', 
+    link: '/infinitescroll', 
+    icon: Icons.insert_drive_file_outlined
+  ),
+
+  MenuItem(
+    title: 'Progress', 
+    subTitlle: 'Algo Progrsivo', 
+    link: '/progress', 
+    icon: Icons.precision_manufacturing
+  ),
+
+  MenuItem(
+    title: 'SnackBar', 
+    subTitlle: 'USnackBar personalizado', 
+    link: '/snackbar', 
+    icon: Icons.snapchat_rounded
+  ),
+
+  MenuItem(
+    title: 'Ui - Controls', 
+    subTitlle: 'Controles de diseño', 
+    link: '/uicontrols', 
+    icon: Icons.construction_rounded
+  ),
+
 ];
